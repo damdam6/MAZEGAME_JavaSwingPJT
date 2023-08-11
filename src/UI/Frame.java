@@ -39,6 +39,7 @@ public class Frame extends JFrame implements Runnable {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
 		this.setLayout(new FlowLayout());
+		setLocationRelativeTo(null); 
 		this.getContentPane().setLayout(getLayout());
 		this.setVisible(true);
 	}
